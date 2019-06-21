@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- form 실습 -->
+  <h2>form input</h2>
+  <form action="#">
+    텍스트 : <input type="text" name=username placeholder="이름을 입력하세요." autofocus><br>
+    이메일 : <input type="email" placeholder="이메일을 입력하세요." autocomplete="on"><br>
+    비밀번호 : <input type="password" placeholder="비밀번호를 입력하세요."><br>
+    날짜 : <input type="date">
+    <input type="hidden" name="" value="이 사람은 해커">
+    <input type="submit" value="전송"><br>
+    <!-- radio button -->
+    <input type="radio" name="gender" value="male">남자
+    <input type="radio" name="gender" value="female" checked>여자<br>
+    <!-- checkbox -->
+    <input type="checkbox" name="option" value="1">Sia<br>
+    <input type="checkbox" name="option" value="2">Queen<br>
+    <input type="checkbox" name="option" value="3">Bieber<br>
+    <!-- number -->
+    <input type="number" name="size" min="5" max="100" step="15" value="15">
+    <!-- dropdown -->
+    <select name="country">
+      <option value="korea">한국</option>
+      <option value="japan" disabled>일본</option>
+      <option value="china" selected>중국</option>
+    </select>
+</body>
+
+</html>
